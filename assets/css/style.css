@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 h1{
-  background-color: #20B2AA;
+  background-color: #FF4500;
   color: #000033;
   text-align: center;
   font-family:'Courier New'
@@ -103,7 +103,7 @@ li{
      transition: all 0.5s ease-in-out;
   border: 3px solid transparent;
   border-radius: 50%;
-  background-color: #FFD700;
+  background-color: #00FF00;
 }
 
 .menu div.menubar{
@@ -116,7 +116,7 @@ li{
   height: 5px;
   margin-top: 3px;
   border-radius: 2px;
-  background-color: #ffffff;
+  background-color: #FFffff;
 }
 .menu ul{
   display:none;
@@ -139,7 +139,7 @@ li{
   -webkit-transition:all 0.3s ease-in;
      transition: all 0.3s ease-in;
  text-decoration: none;
- color: #1b2538;
+ color: #FF0000;
  border-bottom: 4px solid transparent;
  height: 56px;
  line-height: 2em;
@@ -147,11 +147,11 @@ li{
 
 .menu ul li a:hover{
   color:#ffffff;
-  background-color: #1b2538;
+  background-color: #FF0000;
 }
 
 .menu ul li a:target{
-  border-bottom-color: #1b2538;
+  border-bottom-color: #FF0000;
 }
 
 /*クリックした時の動き*/
@@ -162,9 +162,9 @@ li{
 #cp_navimenuid:checked ~.menu{
    width: 100%;
    height: 60px;
-   border: 3px solid #1b2538;
+   border: 3px solid #00FF00;
    border-radius: 5px;
-   background-color: transparent;
+   background-color: #00FF00;
    font-family: "Courier New";
 }
 
