@@ -186,3 +186,14 @@ li{
 a{
    color: #00FF00
 }
+
+footer{
+    background-color: #FF4500;
+    color:#fff;
+    font-size: 80%;
+    padding:10px;
+    min-height:50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
