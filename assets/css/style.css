@@ -243,3 +243,22 @@ footer{
     background: #ffffff;
     display:inline-block;
 }
+
+.efect{
+  border: 1px solid #ddd;
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.efect img{
+  width: 100%;
+  transform: scale(1.1);
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition-duration: 0.5s;
+}
+.efect img:hover{
+  filter: grayscale(0);
+  transition-duration: 0.5s;
+}
