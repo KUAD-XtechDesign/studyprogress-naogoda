@@ -5,10 +5,10 @@ html{
 }
 
 h1{
-  background-color: #FF4500;
-  color: #6633FF;
+  background-color: #A6213A;
+  color: #ffffff;
   text-align: center;
-  font-family:'Courier New'
+  font-family: 'Courier New' ;
 
 }
 
@@ -40,31 +40,31 @@ h1::after{
 h2{
   text-align: center;
   font-family: 'Courier New';
-  color: #6633FF
+  color: #A6213A
 }
 
 h3{
   text-align: center;
   font-family: 'Courier New';
-  color: #6633FF
+  color: #A6213A
 }
 
 h4{
   text-align: center;
   font-family: 'Courier New';
-  color: #6633FF
+  color: #A6213A
 }
 
 h5{
   text-align: center;
   font-family: 'Courier New';
-  color: #6633FF
+  color: #A6213A
 }
 
 p{
   text-align: center;
   font-family: 'Courier New';
-  color: #6633FF
+  color: #A6213A
 }
 
 br{
@@ -115,7 +115,7 @@ li{
      transition: all 0.5s ease-in-out;
   border: 3px solid transparent;
   border-radius: 50%;
-  background-color: #00FF00;
+  background-color: #ffffff;
 }
 
 .menu div.menubar{
@@ -151,7 +151,7 @@ li{
   -webkit-transition:all 0.3s ease-in;
      transition: all 0.3s ease-in;
  text-decoration: none;
- color: #FF0000;
+ color: #A6213A;
  border-bottom: 4px solid transparent;
  height: 56px;
  line-height: 2em;
@@ -159,11 +159,11 @@ li{
 
 .menu ul li a:hover{
   color:#ffffff;
-  background-color: #FF0000;
+  background-color: #A6213A;
 }
 
 .menu ul li a:target{
-  border-bottom-color: #FF0000;
+  border-bottom-color: #A6213A;
 }
 
 /*クリックした時の動き*/
@@ -174,9 +174,9 @@ li{
 #cp_navimenuid:checked ~.menu{
    width: 100%;
    height: 60px;
-   border: 3px solid #00FF00;
+   border: 3px solid #000000;
    border-radius: 5px;
-   background-color: #00FF00;
+   background-color: #000000;
    font-family: "Courier New";
    font-weight: bold;
 }
@@ -192,11 +192,11 @@ li{
 }
 
 a{
-   color: #00EE00
+   color: #008080
 }
 
 footer{
-    background-color: #FF4500;
+    background-color: #A6213A;
     color:#fff;
     font-size: 80%;
     padding:10px;
@@ -210,9 +210,9 @@ footer{
   .box11{
     padding: 0.5em 1em;
     margin: 2em 0;
-    color: #6633FF;
+    color: #A6213A;
     background: #EEEEEE;
-    border-top: solid 5px #6633FF;
+    border-top: solid 5px #A6213A;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
     display:inline-block;
 
@@ -239,7 +239,7 @@ footer{
 .box3{
   padding: 0.5em 1em;
     margin: 2em 0;
-    color: #2c2c2f;
+    color: #A6213A;
     background: #ffffff;
     display:inline-block;
 }
