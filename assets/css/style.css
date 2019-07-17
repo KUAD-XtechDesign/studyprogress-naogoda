@@ -246,8 +246,8 @@ footer{
 
 .efect{
   border: 1px solid #ddd;
-  width: 1200px;
-  height: 800px;
+  width: 1300px;
+  height: 850px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -256,9 +256,9 @@ footer{
   transform: scale(1.1);
   cursor: pointer;
   filter: grayscale(100%);
-  transition-duration: 0.5s;
+  transition-duration: 1.5s;
 }
 .efect img:hover{
   filter: grayscale(0);
-  transition-duration: 0.5s;
+  transition-duration: 1.5s;
 }
