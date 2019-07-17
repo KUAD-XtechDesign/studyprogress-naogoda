@@ -4,6 +4,19 @@
     <meta charset="utf-8">
     <title>NaoGoda PSS</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+   <script src="./assets/js/glitch.jquery.js"></script>
+   <script type="text/javascript">
+     $(function(){
+       $('.effect').glitch({
+         hshift:500,
+         vshift:500,
+         maxglitch: 500,
+         minint: 0.03,
+         maxint:0.05,
+       });
+     });
+   </script>
   </head>
   <body>
     <input type="checkbox" id="cp_navimenuid" >
@@ -34,7 +47,9 @@
       <h1>SUBJECTS</h1>
 
 <div class="img">
-  <img src="./assets/images/2019-06-03 09:51:14.154.JPG" alt="">
+  <div class="effect">
+      <img src="./assets/images/2019-06-03 09:51:14.154.JPG" alt="">
+  </div>
 </div>
 
 <div class="box11">
