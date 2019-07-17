@@ -245,15 +245,14 @@ footer{
 }
 
 .efect{
-  border: 1px solid #ddd;
-  width: 1300px;
+  width: 1000px;
   height: 850px;
   margin: 0 auto;
   overflow: hidden;
 }
 .efect img{
   width: 100%;
-  transform: scale(1.1);
+  transform: scale(1,1);
   cursor: pointer;
   filter: grayscale(100%);
   transition-duration: 1.5s;
