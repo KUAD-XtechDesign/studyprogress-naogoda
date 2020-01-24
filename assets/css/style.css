@@ -74,8 +74,8 @@ br{
 
 li{
   text-align: center;
+  font-family: 'Courier New';
 }
-
 
 
 .wrapper {
@@ -199,8 +199,11 @@ footer{
     background-color: #A6213A;
     color:#fff;
     font-size: 80%;
+    font-family: 'Courier New';
     padding:10px;
     min-height:50px;
+    position: absolute;
+    width: 100%;
 
     display: flex;
     align-items: center;
